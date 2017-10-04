@@ -1,0 +1,3 @@
+The program is implementation of Markovs Chain algorithm. App generates random text, based on what words may follow a sequence of 2 previous words in a base text. As base text app use parsed Python docs. Program uses such library as: Beatiful Soup, aiohttp, asyncio, crispy forms.
+
+The program reads the base text and builds a table that, for each prefix of two words, gives a list with the words that follow that prefix in the text. After building the table, the program uses the table to generate random text, wherein each word follows two previous words with the same probability of the base text. As a result, we have text that is very, but not quite, random.
