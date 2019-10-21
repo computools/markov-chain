@@ -10,7 +10,7 @@ chardet==3.0.4
 constantly==15.1.0
 cryptography==2.0.3
 cssselect==1.0.1
-Django==1.11.5
+Django==1.11.23
 django-crispy-forms==1.6.1
 django-jinja==2.4.0
 gevent==1.2.2
